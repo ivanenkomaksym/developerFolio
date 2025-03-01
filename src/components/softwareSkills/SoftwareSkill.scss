@@ -9,10 +9,15 @@
   text-align: center;
 }
 
+.badge-icon {
+  height: 40px;
+  margin: 5px;
+}
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .software-skill-inline > i {

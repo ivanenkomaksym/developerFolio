@@ -48,10 +48,16 @@ const skillsSection = {
   subTitle: "EXPLORE AND CONNECT THINGS",
   skills: [
     emoji(
-      "⚡ Build backend services and APIs using C#, Rust, Go"
+      "⚡ Build backend services and APIs using C#, Rust, Go, C++"
     ),
     emoji(
-      "⚡ Deploying and managing applications in the cloud (AWS, Azure, Google Cloud)"
+      "⚡ React, and Angular for frontend development"
+    ),
+    emoji(
+      "⚡ Deploying using Docker, Kubernetes, and CI/CD pipelines"
+    ),
+    emoji(
+      "⚡ Cloud-native development using Azure, and Google Cloud"
     )
   ],
 
@@ -59,51 +65,63 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "cpp",
-      fontAwesomeClassname: "fab fa-cpp"
-    },
-    {
-      skillName: "cs",
-      fontAwesomeClassname: "fab fa-cs"
-    },
-    {
-      skillName: "rust",
-      fontAwesomeClassname: "fab fa-rust"
-    },
-    {
-      skillName: "go",
-      fontAwesomeClassname: "fab fa-golang"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+      {
+        "skillName": "C++",
+        "badgeURL": "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+      },
+      {
+        "skillName": "C#",
+        "badgeURL": "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white"
+      },
+      {
+        "skillName": "PowerShell",
+        "badgeURL": "https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white"
+      },
+      {
+        "skillName": "Rust",
+        "badgeURL": "https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+      },
+      {
+        "skillName": "Go",
+        "badgeURL": "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white"
+      },
+      {
+        "skillName": "Python",
+        "badgeURL": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+      },
+      {
+        "skillName": "TypeScript",
+        "badgeURL": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "skillName": "Git",
+        "badgeURL": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+      },
+      {
+        "skillName": "Docker",
+        "badgeURL": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "skillName": "Kubernetes",
+        "badgeURL": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+      },
+      {
+        "skillName": "Postman",
+        "badgeURL": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+      },
+      {
+        "skillName": "Swagger",
+        "badgeURL": "https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
+      },
+      {
+        "skillName": "Azure",
+        "badgeURL": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+      },
+      {
+        "skillName": "Google Cloud",
+        "badgeURL": "https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+      }
+    ],
   display: true // Set false to hide this section, defaults to true
 };
 
