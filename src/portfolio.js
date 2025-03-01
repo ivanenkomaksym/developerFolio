@@ -110,26 +110,13 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ivan Franko National University of Lviv",
+      logo: require("./assets/images/unilogo.jpg"),
+      subHeader: "Master of Science in Information Technologies",
+      duration: "September 2008 - Jul 2013"
     }
   ]
 };
@@ -199,11 +186,11 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Demo Projects",
+  subtitle: "SOME PUBLICLY ACCESSIBLE DEMO PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/shorturl.png"),
       projectName: "Short URL",
       projectDesc: "Simple URL shortening service written in Rust. ",
       footerLink: [
@@ -215,7 +202,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/twitterclone.png"),
       projectName: "Twitter Clone",
       projectDesc: "Simple twitter clone in Go with Server-Sent Events and React client. Supports multi-environment setup, containerization, CI/CD, Google Cloud deployment.",
       footerLink: [
@@ -367,10 +354,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "ivanenkomak", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = null; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
