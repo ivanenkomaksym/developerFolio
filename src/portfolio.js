@@ -23,7 +23,7 @@ const greeting = {
   username: "Maksym Ivanenko",
   title: "Hi all, I'm Maksym",
   subTitle: emoji(
-    "A Software Architect with more than a decade of industry experience. I specialize in Cloud, SoA, REST, C++, C#, and .NET. I have experience building cloud-native distributed systems, multi-threaded applications and desktop applications. I keep current with the latest technology and industry trends. I enjoy integrating and connecting different frameworks and technologies to create cohesive solutions. I demonstrate this by building and showcasing small, well-documented prototypes on my public GitHub account."
+    "Experienced Software Architect with over 12 years in the industry, specializing in Cloud Computing, Microservices, Event-Driven and Service-Oriented Architectures. Adept at building cloud-native distributed systems, multi-threaded applications, and desktop solutions. Proven track record of providing technical leadership and mentorship, guiding teams to deliver innovative solutions that drive efficiency and reduce operational costs. Skilled in collaborating with clients and business stakeholders to inform technical decision-making and successfully execute projects. Passionate about staying at the forefront of emerging technologies and industry trends, consistently integrating diverse frameworks and tools to craft cohesive, high-performance solutions. My work is showcased through well-documented prototypes on my public GitHub account, demonstrating my commitment to continuous learning and sharing knowledge."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -48,7 +48,7 @@ const skillsSection = {
   subTitle: "EXPLORE AND CONNECT THINGS",
   skills: [
     emoji(
-      "⚡ Build backend services and APIs using C#, Rust, Go, C++"
+      "⚡ Build backend services and APIs using C#, Rust, Go, TypeScript, C++"
     ),
     emoji(
       "⚡ React, and Angular for frontend development"
@@ -57,7 +57,7 @@ const skillsSection = {
       "⚡ Deploying using Docker, Kubernetes, and CI/CD pipelines"
     ),
     emoji(
-      "⚡ Cloud-native development using Azure, and Google Cloud"
+      "⚡ Cloud-native development using Azure, AWS and Google Cloud"
     )
   ],
 
@@ -65,63 +65,67 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-      {
-        "skillName": "C++",
-        "badgeURL": "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
-      },
-      {
-        "skillName": "C#",
-        "badgeURL": "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white"
-      },
-      {
-        "skillName": "PowerShell",
-        "badgeURL": "https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white"
-      },
-      {
-        "skillName": "Rust",
-        "badgeURL": "https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
-      },
-      {
-        "skillName": "Go",
-        "badgeURL": "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white"
-      },
-      {
-        "skillName": "Python",
-        "badgeURL": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
-      },
-      {
-        "skillName": "TypeScript",
-        "badgeURL": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
-      },
-      {
-        "skillName": "Git",
-        "badgeURL": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
-      },
-      {
-        "skillName": "Docker",
-        "badgeURL": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
-      },
-      {
-        "skillName": "Kubernetes",
-        "badgeURL": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
-      },
-      {
-        "skillName": "Postman",
-        "badgeURL": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
-      },
-      {
-        "skillName": "Swagger",
-        "badgeURL": "https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
-      },
-      {
-        "skillName": "Azure",
-        "badgeURL": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
-      },
-      {
-        "skillName": "Google Cloud",
-        "badgeURL": "https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
-      }
-    ],
+    {
+      "skillName": "C#",
+      "badgeURL": "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white"
+    },
+    {
+      "skillName": "Azure",
+      "badgeURL": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+    },
+    {
+      "skillName": "AWS",
+      "badgeURL": "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+    },
+    {
+      "skillName": "Google Cloud",
+      "badgeURL": "https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+    },
+    {
+      "skillName": "Docker",
+      "badgeURL": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+    },
+    {
+      "skillName": "Kubernetes",
+      "badgeURL": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+    },
+    {
+      "skillName": "C++",
+      "badgeURL": "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+    },
+    {
+      "skillName": "PowerShell",
+      "badgeURL": "https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white"
+    },
+    {
+      "skillName": "Rust",
+      "badgeURL": "https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+    },
+    {
+      "skillName": "Go",
+      "badgeURL": "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white"
+    },
+    {
+      "skillName": "Python",
+      "badgeURL": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+    },
+    {
+      "skillName": "TypeScript",
+      "badgeURL": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+    },
+    {
+      "skillName": "Git",
+      "badgeURL": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+    },
+    {
+      "skillName": "Postman",
+      "badgeURL": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+    },
+    {
+      "skillName": "Swagger",
+      "badgeURL": "https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -242,13 +246,13 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Certified Qt Developer",
-      image: require("./assets/images/qt.png"),
-      imageAlt: "Certified Qt Developer",
+      title: "AWS Certified Cloud Practitioner",
+      image: require("./assets/images/aws.png"),
+      imageAlt: "AWS Certified Cloud Practitioner",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B9OCCPtRH_y1X3JFWDBoVjlvcFE/view?usp=drive_link&resourcekey=0-QsrLB4mLkxDLPAN8WPkRMw"
+          url: "https://drive.google.com/file/d/1PRNDS02T6XXas3SqdgVIjp2pQDErxUMj/view?usp=sharing"
         }
       ]
     },
@@ -262,7 +266,18 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1b8FzFyuQ3Ixotz4dBuThvR9RNTpkEL2e/view?usp=drive_link"
         }
       ]
-    }
+    },
+    {
+      title: "Certified Qt Developer",
+      image: require("./assets/images/qt.png"),
+      imageAlt: "Certified Qt Developer",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B9OCCPtRH_y1X3JFWDBoVjlvcFE/view?usp=drive_link&resourcekey=0-QsrLB4mLkxDLPAN8WPkRMw"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
