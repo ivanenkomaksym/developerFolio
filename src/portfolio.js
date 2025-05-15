@@ -214,11 +214,23 @@ const bigProjects = {
     {
       image: require("./assets/images/shorturl.png"),
       projectName: "Short URL",
-      projectDesc: "Simple URL shortening service written in Rust. ",
+      projectDesc: "Simple URL shortening service written in Rust.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://short.ivanenkomak.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/whois.png"),
+      projectName: "Whois Lookup",
+      projectDesc: "Simple Whois Lookup and Domain Availability Checker.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://whois.ivanenkomak.com/"
         }
         //  you can add extra buttons here.
       ]
